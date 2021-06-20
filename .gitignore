@@ -5,3 +5,11 @@
 /.vs
 /src/Infrastructure/ECommex.Infrastructure/obj
 /src/Modules/Core/ECommex.Modules.Core/obj
+/src/Modules/Core/ECommex.Modules.Core/bin/Debug/net5.0/ECommex.Modules.Core.pdb
+src/Infrastructure/ECommex.Infrastructure/bin/Debug/net5.0/ECommex.Infrastructure.dll
+src/Infrastructure/ECommex.Infrastructure/bin/Debug/net5.0/ECommex.Infrastructure.pdb
+src/Infrastructure/ECommex.Infrastructure/bin/Debug/net5.0/ref/ECommex.Infrastructure.dll
+src/Modules/Core/ECommex.Modules.Core/bin/Debug/net5.0/ECommex.Modules.Core.dll
+src/Modules/Core/ECommex.Modules.Core/bin/Debug/net5.0/ref/ECommex.Modules.Core.dll
+src/Infrastructure/ECommex.Infrastructure/bin/Debug/net5.0/ECommex.Infrastructure.deps.json
+src/Modules/Core/ECommex.Modules.Core/bin/Debug/net5.0/ECommex.Modules.Core.deps.json
