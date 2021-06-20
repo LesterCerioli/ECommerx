@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/Infrastructure/ECommex.Infrastructure/obj
+/src/Modules/Core/ECommex.Modules.Core/obj
