@@ -9,9 +9,6 @@ namespace ECommex.Infrastructure.Models
 {
     public interface IExtendableObject
     {
-        object ExtensionData { get; }
-
-        T GetData<T>(string name, JsonSerializer jsonSerializer);
-        void SetData<T>(string name, T value, JsonSerializer jsonSerializer);
+       string ExtensionData { get; set; }
     }
 }
