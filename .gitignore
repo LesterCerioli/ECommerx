@@ -13,3 +13,13 @@ src/Modules/Core/ECommex.Modules.Core/bin/Debug/net5.0/ECommex.Modules.Core.dll
 src/Modules/Core/ECommex.Modules.Core/bin/Debug/net5.0/ref/ECommex.Modules.Core.dll
 src/Infrastructure/ECommex.Infrastructure/bin/Debug/net5.0/ECommex.Infrastructure.deps.json
 src/Modules/Core/ECommex.Modules.Core/bin/Debug/net5.0/ECommex.Modules.Core.deps.json
+/test/ECommerx.Infrastructure.Tests/obj/Debug/net5.0
+/test/ECommerx.Infrastructure.Tests/obj/Release/net5.0/ECommerx.Infrastructure.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/test/ECommerx.Infrastructure.Tests/obj/Release/net5.0/ECommerx.Infrastructure.Tests.AssemblyInfoInputs.cache
+/test/ECommerx.Infrastructure.Tests/obj/Release/net5.0/ECommerx.Infrastructure.Tests.AssemblyInfo.cs
+/test/ECommerx.Infrastructure.Tests/obj/Release/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+/test/ECommerx.Modules.Core.Tests/obj/Debug/net5.0
+/test/ECommerx.Modules.Core.Tests/obj/Release/net5.0/ECommerx.Modules.Core.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/test/ECommerx.Modules.Core.Tests/obj/Release/net5.0/ECommerx.Modules.Core.Tests.AssemblyInfoInputs.cache
+/test/ECommerx.Modules.Core.Tests/obj/Release/net5.0/ECommerx.Modules.Core.Tests.AssemblyInfo.cs
+/test/ECommerx.Modules.Core.Tests/obj/Release/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
