@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ECommex.Infrastructure.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,7 @@ namespace ECommex.Modules.Core.Models
 
         public long AddressId { get; set; }
 
-        public Address Address { get; set; }
+        public  Address Address { get; set; }
 
         public AddressType AddressType { get; set; }
 

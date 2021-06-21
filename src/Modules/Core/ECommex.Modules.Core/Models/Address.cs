@@ -1,36 +1,55 @@
-﻿using System;
+﻿using ECommex.Infrastructure.Models;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ECommex.Modules.Core.Models
 {
-    public class Country : EntityBaseWithTypedId<string>
+    public class Address : EntityBase
     {
-        public Country(string id)
+        public Address() { }
+
+        public Address(long id)
         {
             Id = id;
         }
-       
+
+        [StringLength(450)]
+        public string ContactName { get; set; }
+
+        [StringLength(450)]
+        public string Phone { get; set; }
+
+        [StringLength(450)]
+        public string AddressLine1 { get; set; }
+
+        [StringLength(450)]
+        public string AddressLine2 { get; set; }
+
+        [StringLength(450)]
+        public string City { get; set; }
+
+        [StringLength(450)]
+        public string ZipCode { get; set; }
+
+        public long? DistrictId { get; set; }
+
+        public District District { get; set; }
+
+        [Required(ErrorMessage = "The {0} field is required.")]
+        public long StateOrProvinceId { get; set; }
+
+        public StateOrProvince StateOrProvince { get; set; }
+
         [Required(ErrorMessage = "The {0} field is required.")]
         [StringLength(450)]
-        public string Name { get; set; }
+        public string CountryId { get; set; }
 
-        [StringLength(450)]
-        public string Code3 { get; set; }
+        public Country Country { get; set; }
 
-        public bool IsBillingEnabled { get; set; }
-
-        public bool IsShippingEnabled { get; set; }
-
-        public bool IsCityEnabled { get; set; } = true;
-
-        public bool IsZipCodeEnabled { get; set; } = true;
-
-        public bool IsDistrictEnabled { get; set; } = true;
-
-        public IList<StateOrProvince> StatesOrProvinces { get; set; } = new List<StateOrProvince>();
-
+        public IList<UserAddress> UserAddresses { get; set; } = new List<UserAddress>();
     }
 }
