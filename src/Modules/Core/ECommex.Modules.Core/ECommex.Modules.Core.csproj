@@ -4,4 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\test\ECommerx.Infrastructure.Tests\ECommerx.Infrastructure.Tests.csproj" />
+  </ItemGroup>
+
 </Project>
