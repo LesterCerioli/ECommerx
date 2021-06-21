@@ -6,7 +6,5 @@ using System.Threading.Tasks;
 
 namespace ECommex.Modules.Core.Models
 {
-    public class Country
-    {
-    }
+    
 }
