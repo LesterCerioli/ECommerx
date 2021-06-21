@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommex.Modules.Core.Models
+namespace ECommex.Infrastructure.Localization
 {
-    public enum MediaType
+    public enum LanguageDirection
     {
-        Image = 1,
 
-        File = 5,
-
-        Video = 10,
+        LTR,
+        RTL
     }
 }
