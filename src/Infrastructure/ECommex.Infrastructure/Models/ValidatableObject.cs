@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ECommex.Infrastructure.Models
 {
-    ublic abstract class ValidatableObject
+    public abstract class ValidatableObject
     {
         public virtual bool IsValid()
         {
