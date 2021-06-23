@@ -43,7 +43,7 @@ namespace ECommex.Infrastructure.Extensions
         {
             return dictionary.TryGetValue(key, out var obj) ? obj : default(TValue);
         }
-        
+
         /// <summary>
         /// Gets a value from the dictionary with given key. Returns default value if can not find.
         /// </summary>
@@ -59,6 +59,7 @@ namespace ECommex.Infrastructure.Extensions
             {
                 return obj;
             }
+
             return dictionary[key] = factory(key);
         }
 
