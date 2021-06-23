@@ -8,5 +8,8 @@ namespace ECommex.Modules.Core.Models
 {
     public enum AddressType
     {
+        Shipping,
+
+        Billing
     }
 }

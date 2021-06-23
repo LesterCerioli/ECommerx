@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommex.Modules.Core.Models
+namespace ECommex.Infrastructure.Localization
 {
-    public class WidgetZone : EntityBase
+    public class Culture : EntityBaseWithTypedId<string>
     {
-        public WidgetZone(long id)
+        public Culture(string id)
         {
             Id = id;
         }
@@ -19,6 +19,6 @@ namespace ECommex.Modules.Core.Models
         [StringLength(450)]
         public string Name { get; set; }
 
-        public string Description { get; set; }
+        public IList<Resource> Resources { get; set; }
     }
 }
