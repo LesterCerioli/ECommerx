@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ECommex.Modules.Core.Events
 {
-    public class EntityViewed
+    public class EntityViewed : INotification
     {
+        public long EntityId { get; set; }
+
+        public string EntityTypeId { get; set; }
     }
 }

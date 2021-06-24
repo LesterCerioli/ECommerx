@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ECommex.Modules.Core.Events
 {
-    public class UserSignedIn
+    public class UserSignedIn : INotification
     {
+        public long UserId { get; set; }
     }
 }

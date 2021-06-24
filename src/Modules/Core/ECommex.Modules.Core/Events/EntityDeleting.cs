@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ECommex.Modules.Core.Events
 {
-    public class EntityDeleting
+    public class EntityDeleting : INotification
     {
+        public long EntityId { get; set; }
     }
 }
