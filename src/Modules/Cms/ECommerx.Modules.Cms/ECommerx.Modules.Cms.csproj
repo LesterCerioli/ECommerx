@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Infrastructure\ECommex.Infrastructure\ECommex.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Core\ECommex.Modules.Core\ECommex.Modules.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Cms\Controllers\" />
+  </ItemGroup>
+
+</Project>
