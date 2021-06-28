@@ -8,5 +8,9 @@ namespace ECommex.Modules.Core.Events
 {
     public class EntityDeleting
     {
+
+
+        //yhttttttttttttttttttttttttttttt
+
     }
 }
